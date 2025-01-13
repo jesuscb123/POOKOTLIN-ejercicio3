@@ -15,7 +15,7 @@ class Persona(var peso: Float, var altura: Float) {
     }
 
    fun peso_encima_media(): String{
-        if(peso >= 70){
+        if(peso >= 70F){
             return "Por encima de la media"
         }else{
             return "Por debajo de la media"
@@ -48,7 +48,7 @@ class Persona(var peso: Float, var altura: Float) {
         val peso_encima_media = peso_encima_media()
         val imc = calcular_imc()
         val descimc = obtenerdescimc(imc)
-        return "${this.nombre} con una altura de $altura($altura_encima_media) y un peso de $peso($peso_encima_media) tiene un IMC de $imc ($descimc)"
+        return "con una altura de $altura($altura_encima_media) y un peso de $peso($peso_encima_media) tiene un IMC de $imc ($descimc)"
     }
 
     override fun toString(): String {

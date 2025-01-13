@@ -58,13 +58,6 @@ fun pedir_nombre(msj: String): String{
     return nombre
 }
 
-/*
-fun modificar_propiedades(persona1: Persona,persona2: Persona,persona3: Persona){
-    persona1.nombre = pedir_nombre("Introduce un nombre para la persona1, no puede estar vacío.")
-    persona3.altura = 1.90F
-    persona2.altura = persona3.altura
-}
-*/
 
 fun main(){
     var lista_personas = mutableListOf<Persona>()
@@ -74,9 +67,10 @@ fun main(){
     lista_personas.add(Persona(nombre = "kiro", peso = 50F, altura = 1.50F))
     lista_personas.add(Persona(nombre = "Jesulito", peso = 35F, altura = 1.70F))
     lista_personas.add(Persona(nombre = "José", peso = 40F, altura = 1.80F))
+    lista_personas.add(Persona(nombre = pedir_nombre("Introduce tu nombre"), peso = 55.78F, altura = 1.68F))
 
-    
     mostrar_personas(lista_personas)
+
 
 
 
