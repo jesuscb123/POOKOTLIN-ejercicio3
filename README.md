@@ -1,5 +1,4 @@
-# POOKOTLIN-ejercicio3
-
+# POOKOTLIN-ejercicio63
 1. Actualizar el ejercicio 4.2 para añadir a la clase Persona el siguiente comportamiento:
 
 Debe retornar un saludo con su nombre... saludar():String
@@ -16,9 +15,10 @@ Si el IMC está entre 25.0 y 29.9, se encuentra dentro del rango de "sobrepeso".
 
 Si el IMC es 30.0 o superior, se encuentra dentro del rango de "obesidad".
 
- Debe implementar también un método que muestre una descripción completa de la persona... obtenerDesc():String. Por ejemplo, este método mostrará por pantalla algo así:
+Debe implementar también un método que muestre una descripción completa de la persona... obtenerDesc():String. Por ejemplo, este método mostrará por pantalla algo así:
 
 "Julia con una altura de 1.72m (Por debajo de la media) y un peso 64.7kg (Por encima de la media) tiene un IMC de 21,87 (peso saludable)". 
-2. Crear en el main() una estructura de datos con 4 o 5 personas más, recorrer la estructura y por cada persona debe saludar y mostrar su descripción completa.
+
+2.Crear en el main() una estructura de datos con 4 o 5 personas más, recorrer la estructura y por cada persona debe saludar y mostrar su descripción completa.
 
 3. Finalmente, revisa el IDE e intenta actualizar el modificador de visibilidad de los métodos de tu clase cómo os estará indicando... veréis que los métodos que realmente no van a ser llamados desde fuera de la clase te recomienda que sean privados a la misma. De esta manera estamos encapsulando estos métodos para que se puedan utilizar solo desde dentro de la clase y no sean públicos.
