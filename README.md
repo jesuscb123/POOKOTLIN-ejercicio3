@@ -1,4 +1,4 @@
-# POOKOTLIN-ejercicio63
+# POOKOTLIN-ejercicio3
 1. Actualizar el ejercicio 4.2 para añadir a la clase Persona el siguiente comportamiento:
 
 Debe retornar un saludo con su nombre... saludar():String
